@@ -34,8 +34,9 @@ Version numbers are `X.Y.Z(-state)`, where:
 You can indicate your package attempts to comply with a PDS publication by
 requiring it in your package manager manifest.
 
-For example, under Composer, `{"require-dev": {"pds/structure": "~1.0.0"}}`
-indicates your package attempts to comply with the `pds/structure` publication.
+For example, under Composer, `{"require-dev": {"pds/skeleton": "~1.0.0"}}`
+indicates your package attempts to comply with the `pds/skeleton` publication
+in its first stable state.
 
 > N.b.: Adding a publication to your package manager manifest helps with
 > ongoing research as to adoption levels of that publication.
