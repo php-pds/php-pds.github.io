@@ -23,7 +23,7 @@ Version numbers are `X.Y.Z(-state)`, where:
 - `X` is conflicting changes from the prior version of the publication (major).
 - `Y` is substantial additions, without conflicting changes from prior (minor).
 - `Z` is insubstantial changes: clarifications, grammar, typos, etc. (fixes).
-- `-dev` means research is ongoing and interested parties are welcome to review.
+- `-dev` means research is ongoing and interested parties are invited to review.
 - `-alpha` is unstable, ready for public review, not ready for wide adoption.
 - `-beta` is stabilizing, ready for public review, ready for wide adoption.
 - No `(-state)` means the the publication is stable and complete; further
