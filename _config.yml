@@ -28,8 +28,4 @@ compress_html:
 sass:
  style: compressed
 
-exclude:
-- README.md
-
-
 gems: [jekyll-seo-tag, jekyll-paginate]
