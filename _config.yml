@@ -26,6 +26,11 @@ compress_html:
 
 
 sass:
- style: compressed
+  style: compressed
 
 gems: [jekyll-seo-tag, jekyll-paginate]
+
+defaults:
+  -
+    values:
+      layout: "default"
