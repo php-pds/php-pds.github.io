@@ -1,38 +1,17 @@
-### your site title here
-
+# Site settings
 title: PHP Package Development Standards
-baseurl: php-pds.github.io # name of the repository
+tag_text: PDS
+description: ""
+baseurl: ""
 
-highlighter: rouge
+font-awesome-include: true # make this false if you don't need font-awesome
+
+# Build settings
 markdown: kramdown
-### exclude the instructions / write-up in the README.md
-
-
-
-# Tracker
-analytics: UA-83979019-1
-
-#optimization
-#compress.html
-compress_html:
-  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
-  comments: ["<!-- ", " -->"]
-  endings: [all]
-  ignore:
-    envs: [local]
-  blanklines: false
-  profile: false
-  startings: []
-
-
-sass:
-  style: compressed
-
-gems: [jekyll-seo-tag, jekyll-paginate]
 
 defaults:
   -
     scope:
-      path: "" # all files
+      path: ""
     values:
       layout: "default"

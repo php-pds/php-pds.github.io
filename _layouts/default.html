@@ -1,28 +1,27 @@
----
-layout: compress
----
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title }} - {{site.title}}</title>
-  <link href="https://fonts.googleapis.com/css?family=Lato:900|Work+Sans" rel="stylesheet">
-  <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
-  {% seo %}
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="{{ site.description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/solo.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
+  {% if site.font-awesome-include %}<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">{% endif %}
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/rrssb.css">
+
+  <script src="{{ site.baseurl }}/scripts/jquery.js"></script>
+  <link rel="canonical" href="{{ site.url }}" />
 </head>
-<body style="background-color: rgb(255, 255, 255)">
-  <header>
-      <a href="{{site.baseurl}}/"><div class="home"></div></a>
-  </header>
-
-  {{ content }}
-
-<div class="theme" onclick="theme()" style="background-image: url({{site.baseurl}}/images/theme.svg);"></div>
-
-
-
-{% include analytics.html %}
-<script src="{{site.baseurl}}/js/theme.min.js"></script>
+<body>
+  <article>
+   <div class="container">
+    <h1><a href="./">{{ site.tag_text }}</a></h1>
+    {{ content }}
+    </div>
+  </article>
+<script src="{{ site.baseurl }}/scripts/rrssb.min.js"></script>
 </body>
 </html>
