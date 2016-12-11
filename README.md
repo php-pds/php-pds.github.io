@@ -10,6 +10,22 @@ the quality and consistency of their own work.
 
 ## Publications
 
+- [pds/skeleton](https://github.com/php-pds/skeleton/tree/1.0.0-dev1) 1.0.0-dev1
+
+## Usage
+
+You can indicate your package attempts to comply with a PDS publication by
+requiring it in your package manager manifest.
+
+For example, under Composer, `{"require-dev": {"pds/skeleton": "1.0.0"}}`
+indicates your package attempts to comply with the `pds/skeleton` publication
+in its first stable state.
+
+> N.b.: Adding a publication to your package manager manifest helps with
+> ongoing research as to adoption levels of that publication.
+
+## Naming and Versioning
+
 PDS publications are named, instead of numbered. This makes them easier to
 recognize, and easier to publish as packages in their own right.
 
@@ -28,15 +44,3 @@ Version numbers are `X.Y.Z(-state)`, where:
 - `-beta(#)` is stabilizing, ready for public review, ready for wide adoption.
 - No `(-state)` means the the publication is stable and complete; further
   changes should be on a subsequent version number.
-
-## Usage
-
-You can indicate your package attempts to comply with a PDS publication by
-requiring it in your package manager manifest.
-
-For example, under Composer, `{"require-dev": {"pds/skeleton": "~1.0.0"}}`
-indicates your package attempts to comply with the `pds/skeleton` publication
-in its first stable state.
-
-> N.b.: Adding a publication to your package manager manifest helps with
-> ongoing research as to adoption levels of that publication.
