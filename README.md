@@ -1,6 +1,6 @@
 # PHP Package Development Standards
 
-This organization researches the PHP package ecosystem to recognize commonly
+This initiative researches the PHP package ecosystem to recognize commonly
 adopted development practices. It rationalizes and refines those practices, then
 publishes them as PDS packages for reference by PHP package authors.
 
