@@ -44,3 +44,5 @@ Version numbers are `X.Y.Z(-state)`, where:
 - `-beta(#)` is stabilizing, ready for public review, ready for wide adoption.
 - No `(-state)` means the the publication is stable and complete; further
   changes should be on a subsequent version number.
+
+This naming and versioning approach is inspired by [SemVer](http://semver.org).
