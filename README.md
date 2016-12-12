@@ -45,4 +45,4 @@ Version numbers are `X.Y.Z(-state)`, where:
 - No `(-state)` means the the publication is stable and complete; further
   changes should be on a subsequent version number.
 
-This naming and versioning approach is inspired by [SemVer](http://semver.org).
+This versioning approach is inspired by [SemVer](http://semver.org).
