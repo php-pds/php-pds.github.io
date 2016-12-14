@@ -46,3 +46,25 @@ Version numbers are `X.Y.Z(-state)`, where:
   changes should be on a subsequent version number.
 
 This versioning approach is inspired by [SemVer](http://semver.org).
+
+
+<div>
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=11190781;
+var sc_invisible=0;
+var sc_security="9a8c09c6";
+var sc_https=1;
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="shopify
+analytics ecommerce" href="http://statcounter.com/shopify/"
+target="_blank"><img class="statcounter"
+src="//c.statcounter.com/11190781/0/9a8c09c6/0/"
+alt="shopify analytics ecommerce"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+</div>
