@@ -48,13 +48,5 @@ Version numbers are `X.Y.Z(-state)`, where:
 This versioning approach is inspired by [SemVer](http://semver.org).
 
 <div>
-    <a
-        title="hit counter"
-        href="http://statcounter.com/"
-        target="_blank"><img
-            src="//c.statcounter.com/11190781/0/9a8c09c6/0/"
-            alt="hit counter"
-            style="border:none;"
-        >
-    </a>
+    <a title="hit counter" href="http://statcounter.com/" target="_blank"><img src="//c.statcounter.com/11190781/0/9a8c09c6/0/" alt="hit counter" style="border:none;" /></a>
 </div>
