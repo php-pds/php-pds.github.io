@@ -48,7 +48,6 @@ Version numbers are `X.Y.Z(-state)`, where:
 This versioning approach is inspired by [SemVer](http://semver.org).
 
 
-<div>
 <!-- Start of StatCounter Code for Default Guide -->
 <script type="text/javascript">
 var sc_project=11190781;
@@ -67,4 +66,3 @@ target="_blank"><img class="statcounter"
 src="//c.statcounter.com/11190781/0/9a8c09c6/0/"
 alt="shopify analytics ecommerce"></a></div></noscript>
 <!-- End of StatCounter Code for Default Guide -->
-</div>
