@@ -10,7 +10,7 @@ the quality and consistency of their own work.
 
 ## Publications
 
-- [pds/skeleton](https://github.com/php-pds/skeleton/tree/1.0.0-dev1) 1.0.0-dev1
+- [pds/skeleton](https://github.com/php-pds/skeleton/tree/1.0.0-alpha1) 1.0.0-alpha1
 
 ## Usage
 
