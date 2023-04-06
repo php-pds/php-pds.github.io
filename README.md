@@ -11,13 +11,14 @@ the quality and consistency of their own work.
 ## Publications
 
 - [pds/skeleton](https://github.com/php-pds/skeleton/tree/1.0.0) 1.0.0
+- [pds/composer-script-names](https://github.com/php-pds/composer-script-names/tree/1.0.0) 1.0.0
 
 ## Usage
 
 You can indicate your package attempts to comply with a PDS publication by
 requiring it in your package manager manifest.
 
-For example, under Composer, `{"require-dev": {"pds/skeleton": "~1.0"}}`
+For example, under Composer, `{"require-dev": {"pds/skeleton": "^1.0"}}`
 indicates your package attempts to comply with the `pds/skeleton` publication.
 
 You can also indicate in your package README that your package has adopted a
