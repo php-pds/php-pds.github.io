@@ -50,3 +50,4 @@ Version numbers are `X.Y.Z(-state)`, where:
   changes should be on a subsequent version number.
 
 This versioning approach is inspired by [SemVer](http://semver.org).
+
